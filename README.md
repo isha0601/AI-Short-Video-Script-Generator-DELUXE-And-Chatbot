@@ -4,8 +4,6 @@
 
 Create viral short-form video scripts in seconds with AI — complete with voiceovers, PDF downloads, and a built-in Gemini chatbot to assist with content creation.
 
-![Streamlit UI Screenshot](screenshot.png) <!-- Add your own screenshot if available -->
-
 ---
 
 ## 🚀 Features
@@ -35,7 +33,8 @@ Create viral short-form video scripts in seconds with AI — complete with voice
 
 2. Create and Activate Virtual Environment (Optional but Recommended)
 - python -m venv venv
-- source venv/bin/activate  # On Windows use: venv\Scripts\activate
+- source venv/bin/activate
+- On Windows use: venv\Scripts\activate
 
 3. Install Dependencies
 - pip install -r requirements.txt
@@ -45,8 +44,7 @@ Create viral short-form video scripts in seconds with AI — complete with voice
 
 - export GEMINI_API_KEY='your_api_key_here'  # For Linux/macOS
 
-# Or on Windows:
-- set GEMINI_API_KEY=your_api_key_here
+ - Or on Windows: set GEMINI_API_KEY=your_api_key_here
   
 ▶️ Running the App
 - streamlit run app.py
@@ -60,14 +58,10 @@ Create viral short-form video scripts in seconds with AI — complete with voice
 
 ## 💡 Usage Tips
 - Use the script length slider to adjust duration (15–60 seconds).
-
 - You can download the script as both MP3 and PDF.
-
 - The sidebar chatbot can assist you with script ideas, improvements, or content strategy.
 
 ## 📌 Requirements
 - Python 3.7+
-
 - Gemini API Key (from Google AI Studio)
-
 - Internet connection (for API calls and TTS)
